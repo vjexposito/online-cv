@@ -3,29 +3,30 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: left # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Dr. Víctor J. EXPÓSITO JIMÉNEZ
+  tagline: Senior Researcher
+  location: Graz, Austria
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  #email: example@email.com
+  #phone: 012 345 6789
+  #timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: Spanish
+  #website: https://orcid.org/0000-0001-5350-9458 # Include the full website URL, including "http://" or "https://".
+  linkedin: victorexpositojimenez
+  #xing: alandoe
+  github: vjexposito
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  bluesky: # Specify your full Bluesky handle
+  twitter:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -33,192 +34,190 @@ sidebar:
   hackerrank: # Please provide your HackerRank username.
   leetcode: # Please provide your LeetCode username.
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  # TODO: Add Google Scholar and ORCID
 
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Spanish
       level: Native
 
-    - idiom: French
+    - idiom: English
       level: Professional
 
-    - idiom: Spanish
+    - idiom: German
       level: Professional
 
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
+  #interests:
+    #title: Interests
+    #info:
+    #- item: Climbing
+    #  link:
 
 
-    - item: Snowboarding
-      link:
+    #- item: Snowboarding
+    #  link:
 
 
-    - item: Cooking
-      link:
+    #- item: Cooking
+    #  link:
 
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    I'm a senior researcher at Virtual Vehicle Research GmbH in Graz, Austria, specializing in the development and
+    validation of automated driving systems, ADAS, and embedded technologies. My work addresses key challenges in scenario-based
+    testing, SOTIF (Safety of the Intended Functionality), and perception performance for autonomous vehicles. I actively
+    contribute to research projects and publications that support the safe and reliable deployment of autonomous functions.
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Doctor of Philosophy (PhD.) in Telecommunication Engineering
+    university: Graz University of Technology
+    time: 2021 - 2025
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      **Thesis:** [Validation of Safety of the Intended Functionality for Perception Systems in Autonomous Driving](/asses/files/2025-04-22_sotif_arg_exposito_jimenez_diss-final_rev2.pdf)
 
+      Grade: Pass with distinction
+  - degree: Long Cycle Degree in Telecommunication Engineering
+    university: University of Seville
+    time: 2004 - 2012
+    details: |
+      Main fields of study:
+        -	Architecture of computer systems
+        -	Optical communications
+        -	Circuit, component and electronic instrument design
+        -	Radiation and radio-communication
+        - Telecommunication networks, systems and services
+        - Digital signalling
+        - Physical transmission
+        - Project Management
+      Academic year abroad (2011-2012): Graz University of Technology
+      
 experiences:
-  title: Experiences
+  title: Work Experience
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Senior Researcher
+    time: 2018 - Present
+    company: Virtual Vehicle Research GmbH
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Development of Automated Driving (AD) functions:
+        - Embedded systems and sensors
+        - Advanced control and vehicle intelligence
+        - Validation and test of automated systems
+        - Robotics Operating System (ROS) / Autoware
+        - Functional Safety / Safety Of The Intended Functionality (SOTIF)
+  - role: Researcher
+    time: 2012 - 2018
+    company: JOANNEUM RESEARCH Forschungsgesellschaft mbH 
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      Main fields of work: 
+        - Wireless Sensor Networks (WSN) and Communication Protocols
+        - Auto-ID tech: RFID, EPC, NFC
+        - Web architecture: REST, APIs, WebSockets
+        - Web programming: JavaScript, Java, HTML5
+        - Project Management
+  - role: Internship
+    time: 2012
+    company: JOANNEUM RESEARCH Forschungsgesellschaft mbH 
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Mastering the Internet of Things (IoT) - Radio Frequency IDentification (RFID)-Lab Phase 3: The aim was going deep in the knowledge
+      of active/passive RFID communications in the context of the IoT. 
 
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
+  - name: PH526x - Using Python for Research 
+    start: 2023 
     end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+    organization: HarvardX - An Online Learning Initiative by Harvard University through edX
+    credentialid: 
+    credentialurl: courses.edx.org/certificates/101ffe356d4c44538eb9b6f4f8245e4f
+    credentialname: Certificate
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+  - name: Certified Functional Safety Engineer
+    start: 2022
+    end: 2024
+    organization: EuroSPI Certificates and Services GmbH
+    credentialid: EuroSPI-13239-3278
+    credentialurl: 
+    credentialname: 
+    details: |
+  - name: Introduction to ISO/PAS 21448 - SOTIF
+    start: 2021
+    end:
+    organization: Exida.com GmbH
+    credentialid: 
+    credentialurl: 
+    credentialname: 
+    details: |
+  - name: exida Functional Safety Practitioner (FSP)
+    start: 2020
+    end:
+    organization: Exida.com GmbH
+    credentialid: 
+    credentialurl: 
+    credentialname: 
+    details: |
+  - name: ÖSD Zertifikat C1
+    start: Dec 2017
+    end:
+    organization: Österreichisches Sprachdiplom Deutsch (ÖSD)
+    credentialid: ZC11702510
+    credentialurl: 
+    credentialname: 
+    details: |
+  - name: ÖSD Zertifikat B2
+    start: Jan 2017
+    end:
+    organization: Österreichisches Sprachdiplom Deutsch (ÖSD)
+    credentialid: ZB21615151
+    credentialurl: 
+    credentialname: 
+    details: |
 
 projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  #title: Projects
+  #intro: >
+  #  You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  #assignments:
+  #- title: Velocity
+  #  link: "#hook"
+  #  tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+  #- title: DevStudio
+  #  link: "#"
+  #  tagline: "A responsive website template designed to help web developers/designers market their services."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  #- title: Tempo
+  #  link: "#"
+  #  tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  #- title: Atom
+  #  link: "#"
+  #  tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  #- title: Delta
+  #  link: "#"
+  #  tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  #title: OSS Contributions
+  #intro: >
+  #  You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  #contributions:
+  #- title: Tempo
+  #  link: "#"
+  #  tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  #- title: Atom
+  #  link: "#"
+  #  tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  #- title: Delta
+  #  link: "#"
+  #  tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
   title: Publications
@@ -243,44 +242,44 @@ publications:
     conference: "Comm. ACM 4 (1961), 51–55"
 
 recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+  #title: Recommendations
+  #list:
+  #- person: Yareli Perez
+  #  email: perezyareli@example.com
+  #  phone: 012 345 6789
+  #  role: General Director at example.com
+  #  recommendation: |
+  #    Alan Doe is a super employee!
+  #- person: Lara Henderson
+  #  email: larah@example.com
+  #  phone: 012 345 6789
+  #  role: General Director at example.com
+  #  recommendation: |
+  #    I would like to work with Alan Doe again!
+  #
+  #    He is a great employee!
 
 skills:
-  title: Skills &amp; Proficiency
+  #title: Skills &amp; Proficiency
 
-  toolset:
-  - name: Python & Django
-    level: 98%
+  #toolset:
+  #- name: Python & Django
+  #  level: 98%
 
-  - name: Javascript & jQuery
-    level: 98%
+  #- name: Javascript & jQuery
+  #  level: 98%
 
-  - name: Angular
-    level: 98%
+  #- name: Angular
+  #  level: 98%
 
-  - name: HTML5 & CSS
-    level: 95%
+  #- name: HTML5 & CSS
+  #  level: 95%
 
-  - name: Ruby on Rails
-    level: 85%
+  #- name: Ruby on Rails
+  #  level: 85%
 
-  - name: Sketch & Photoshop
-    level: 60%
+  #- name: Sketch & Photoshop
+  #  level: 60%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
