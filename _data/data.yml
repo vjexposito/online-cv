@@ -77,7 +77,7 @@ education:
     university: Graz University of Technology
     time: 2021 - 2025
     details: |
-      **Thesis:** [Validation of Safety of the Intended Functionality for Perception Systems in Autonomous Driving](/asses/files/2025-04-22_sotif_arg_exposito_jimenez_diss-final_rev2.pdf)
+      **Thesis:** [Validation of Safety of the Intended Functionality for Perception Systems in Autonomous Driving](/assets/files/2025-04-22_sotif_arg_exposito_jimenez_diss-final_rev2.pdf)
 
       Grade: Pass with distinction
   - degree: Long Cycle Degree in Telecommunication Engineering
@@ -221,25 +221,25 @@ oss:
 
 publications:
   title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+  #intro: |
+  #  You can list your publications in this section. Lorem ipsum dolor sit
+  #  amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+  #  bibendum fringilla a eu lectus.
+  #papers:
+  #- title: The Art of Computer Programming
+  #  link: "#"
+  #  authors: Donald E. Knuth
+  #  conference: Addison-Wesley, 1968
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+  #- title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+  #  link: "#"
+  #  authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+  #  conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+  #- title: A syntax directed compiler for Algol 60
+  #  link: "#"
+  #  authors: Edgar T. Irons
+  #  conference: "Comm. ACM 4 (1961), 51–55"
 
 recommendations:
   #title: Recommendations
