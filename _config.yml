@@ -6,7 +6,7 @@ url: vjexposito.github.io #'http://webjeda.com'
 
 # change it according to your repository name
 # disabling since we are using a custom domain
-baseurl: '' 
+baseurl: '/' 
 
 description: Víctor J.'s resume webpage # A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
